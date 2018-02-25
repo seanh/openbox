@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+#dmenu_run -b -i -fn "Futura Bk BT:size=13" -nb '#3c4049' -nf '#a8adb5' -sb '#5294E2' -sf '#ffffff' -p "Run:"
+rofi -show drun -font 'Futura Bk BT 15' -color-window '#ffffff,#cdd2d7' -color-normal '#ffffff,#737c90,#ffffff,#5294e2,#fffff' -bw 2 -hide-scrollbar -width -90 -padding 50 -line-margin 6 -separator-style none

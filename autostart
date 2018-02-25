@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+unity-settings-daemon &
+dunst &
+dropbox start &
+~/.config/openbox/bin/ob_stalonetray &

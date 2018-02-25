@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+stalonetray -bg '#000000' --geometry 1x1-0+0 --grow-gravity E --icon-gravity E --slot-size 32 --transparent --window-strut none --window-type normal

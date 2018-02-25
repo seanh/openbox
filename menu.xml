@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="Terminal">
+    <action name="Execute"><execute>~/.config/openbox/bin/ob_terminal</execute></action>
+  </item>
+  <item label="Vim">
+    <action name="Execute"><execute>gvim</execute></action>
+  </item>
+  <item label="Firefox">
+    <action name="Execute"><execute>firefox</execute></action>
+  </item>
+  <item label="Chrome">
+    <action name="Execute"><execute>google-chrome</execute></action>
+  </item>
+  <item label="F_iles">
+    <action name="Execute"><execute>nautilus --no-desktop</execute></action>
+  </item>
+  <item label="Email">
+    <action name="Execute"><execute>thunderbird</execute></action>
+  </item>
+  <item label="Scratch.txt">
+      <action name="Execute"><execute>gedit --new-window ~/Dropbox/Scratch.txt</execute></action>
+  </item>
+  <item label="Run…">
+    <action name="Execute"><execute>~/.config/openbox/bin/ob_run</execute></action>
+  </item>
+</menu>
+</openbox_menu>
