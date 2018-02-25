@@ -30,5 +30,8 @@
   <item label="Run…">
     <action name="Execute"><execute>~/.config/openbox/bin/ob_run</execute></action>
   </item>
+  <item label="S_uspend">
+    <action name="Execute"><execute>systemctl suspend</execute></action>
+  </item>
 </menu>
 </openbox_menu>
