@@ -127,8 +127,14 @@ Usage
 * <kbd><kbd>Super</kbd>+<kbd>m</kbd></kbd>: begin moving the current window
   with the keyboard. When in move mode use the arrow keys to move the window,
   and hit <kbd>Enter</kbd> to exit move mode.
+
   <kbd><kbd>Shift</kbd>+<kbd>&larr;</kbd>, <kbd>&rarr;</kbd>, <kbd>&uarr;</kbd> or <kbd>&darr;</kbd></kbd> while in move mode will
   jump the window all the way to the left, right, top or bottom screen edge.
+
+  Moving the mouse while in move mode will also move the window.
+
+  <kbd>Escape</kbd> cancels the move, putting the window back where it
+  started.
 
   You can also pseudo-modally move the current window using the keyboard with
   <kbd><kbd>Shift</kbd>+<kbd>Super</kbd>+<kbd>&larr;</kbd>, <kbd>&rarr;</kbd>, <kbd>&uarr;</kbd> or <kbd>&darr;</kbd></kbd>.
@@ -144,7 +150,8 @@ Usage
   window.
 
 * <kbd><kbd>Super</kbd>+<kbd>z</kbd></kbd>: begin resizing the current window
-  with the keyboard. Works similarly to moving a window with the keyboard.
+  with the keyboard. Works similarly to moving a window with the keyboard,
+  including mouse support and <kbd>Escape</kbd> to cancel the resize.
 
   You can also pseudo-modally resize the current window from its left and
   bottom edges:
