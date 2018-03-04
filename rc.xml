@@ -439,7 +439,7 @@
     </keybind>
     <keybind key="W-i">
       <action name="Execute">
-        <command>nautilus --no-desktop</command>
+        <command>~/.config/openbox/bin/ob_desktop</command>
       </action>
     </keybind>
     <keybind key="W-p">

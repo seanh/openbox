@@ -18,8 +18,8 @@
   <item label="Chrome">
     <action name="Execute"><execute>google-chrome</execute></action>
   </item>
-  <item label="F_iles">
-    <action name="Execute"><execute>nautilus --no-desktop</execute></action>
+  <item label="Desktop">
+      <action name="Execute"><execute>~/.config/openbox/bin/ob_desktop</execute></action>
   </item>
   <item label="Email">
     <action name="Execute"><execute>thunderbird</execute></action>
