@@ -3,3 +3,4 @@ unity-settings-daemon &
 dunst &
 dropbox start &
 ~/.config/openbox/bin/ob_stalonetray &
+tdc -c black -f '%H:%M' -t "Futura Bk BT" &
