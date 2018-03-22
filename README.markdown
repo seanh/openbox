@@ -43,8 +43,6 @@ Requirements
 
 * Futura Bk BT font.
 
-* Scrot (`sudo apt install scrot`) for taking screenshots
-
 Default apps that are used by the menus and keyboard shortcuts (you can
 easily change these):
 

@@ -27,6 +27,9 @@
   <item label="Scratch.txt">
       <action name="Execute"><execute>gedit --new-window ~/Dropbox/Scratch.txt</execute></action>
   </item>
+  <item label="Scree_nshot">
+      <action name="Execute"><execute>gnome-screenshot --interactive</execute></action>
+  </item>
   <item label="Run…">
     <action name="Execute"><execute>~/.config/openbox/bin/ob_run</execute></action>
   </item>
