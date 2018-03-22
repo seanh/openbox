@@ -9,9 +9,6 @@ lot of docks, panels, icons etc. Not even a desktop wallpaper. This minimalism
 is what I like about Openbox - there's less to distract me and there's also
 less to configure and manage and less to go wrong.
 
-I don't even have the time or date visible! I use a physical clock on my desk
-instead.
-
 But I do add a handful of essentials, including a notifications daemon, a
 system tray, an application launcher and an Openbox theme, and my own
 Openbox configuration with my own keyboard shortcuts.
@@ -33,6 +30,8 @@ Requirements
 
 * [Rofi](https://github.com/DaveDavenport/rofi) application launcher
   (`sudo apt install rofi`)
+
+* [tdc](https://github.com/MTecknology/tdc) (`sudo apt install tdc`)
 
 * [Arc Openbox theme](https://github.com/dglava/arc-openbox)
 
@@ -62,7 +61,7 @@ On Ubuntu:
 
 ```bash
 $ git clone https://github.com/seanh/openbox.git ~/.config/openbox
-$ sudo apt install openbox dunst stalonetray rofi
+$ sudo apt install openbox dunst stalonetray rofi tdc
 $ ln -s ~/.config/openbox/dunst ~/.config/
 ```
 
